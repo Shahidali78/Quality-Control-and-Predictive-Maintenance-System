@@ -21,9 +21,9 @@ Used for developing the predictive maintenance model.
 #### Methodology
 ##### Defect Detection
 Data Preprocessing: Resize images, apply data augmentation, and normalize.
-###Model: CNN with convolutional, max-pooling, and fully connected layers.
-Training: Adam optimizer with categorical crossentropy loss. Early stopping and model checkpointing used.
-Predictive Maintenance
+ ##### Model: CNN with convolutional, max-pooling, and fully connected layers.
+##### Training: Adam optimizer with categorical crossentropy loss. Early stopping and model checkpointing used.
+##### Predictive Maintenance
 Data Preprocessing: Handle missing values, scale features, and split dataset.
 Model: Random Forest classifier with hyperparameter tuning using GridSearchCV.
 Training: Optimize model parameters through cross-validation.
