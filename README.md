@@ -9,20 +9,19 @@ Quality control and predictive maintenance are crucial in manufacturing. Traditi
 ### Objectives
 ##### Defect Detection
 Build a CNN model using the MVTec AD dataset to detect defects.
-##### 
-Predictive Maintenance
+##### Predictive Maintenance
 Develop a Random Forest model using the SECOM dataset to predict equipment failures.
-Datasets
+###### Datasets
 MVTec Anomaly Detection (AD) Dataset
 High-resolution images for various defect types.
 Used for training and testing the defect detection model.
-SECOM Manufacturing Dataset
+##### SECOM Manufacturing Dataset
 Sensor data indicating pass/fail status.
 Used for developing the predictive maintenance model.
-Methodology
-Defect Detection
+#### Methodology
+##### Defect Detection
 Data Preprocessing: Resize images, apply data augmentation, and normalize.
-Model: CNN with convolutional, max-pooling, and fully connected layers.
+###Model: CNN with convolutional, max-pooling, and fully connected layers.
 Training: Adam optimizer with categorical crossentropy loss. Early stopping and model checkpointing used.
 Predictive Maintenance
 Data Preprocessing: Handle missing values, scale features, and split dataset.
